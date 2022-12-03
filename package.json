@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "save": "^2.9.0",
+    "sequelize": "^6.25.8"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "assignment6",
+  "version": "1.0.0",
+  "main": "server.js",
+  "author": "Himani Mistry",
+  "license": "ISC",
+  "devDependencies": {}
+}
