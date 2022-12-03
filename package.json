@@ -10,10 +10,19 @@
   "scripts": {
     "start": "node server.js"
   },
-  "name": "assignment6",
+  "name": "a6",
   "version": "1.0.0",
   "main": "server.js",
   "author": "Himani Mistry",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanimistry2022/a6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/himanimistry2022/a6/issues"
+  },
+  "homepage": "https://github.com/himanimistry2022/a6#readme",
+  "description": ""
 }
