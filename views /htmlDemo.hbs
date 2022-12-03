@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>WEB700</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="/css/theme.css" />
+	<style>
+		td,
+		th {
+			border: 1px solid #dddddd;
+		}
+
+		.tid {
+			text-align: right;
+		}
+
+		.tspan {
+			text-align: center;
+		}
+	</style>
+
+</head>
+
+<body>
+	{{!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Het's Blog</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+				<li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+				<li class="nav-item active"><a class="nav-link" href="/htmlDemo">Html Demo</a></li>
+				<li class="nav-item"><a class="nav-link" href="/students/add">Add Student</a></li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item"><a class="nav-link" href="/students">Students</a></li>
+				<li class="nav-item"><a class="nav-link" href="/tas">Teaching Assistants</a></li>
+				<li class="nav-item"><a class="nav-link" href="/courses">Courses</a></li>
+			</ul>
+		</div>
+	</nav> --}}
+
+	<div class="container">
+		<div class="row">
+			<main class="col-md-12">
+				<h1 style="margin-top: 5%;">Students Information Table</h1>
+				<div class="tbl-div">
+					<table class="table">
+						<thead>
+							<tr>
+								<th colspan="4" class="tspan">Students serving as Teaching Assistants</th>
+							</tr>
+							<tr>
+								<th>Student Number</th>
+								<th>Student Full Name</th>
+								<th>Student Email</th>
+								<th>Student Program</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="tid">1</td>
+								<td>Himani Mistry</td>
+								<td>hmistry20@myseneca.ca</td>
+								<td rowspan="5" class="tspan" style="vertical-align: middle;">Database Application
+									Developer
+								</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<th>Total</th>
+								<th> </th>
+								<th> </th>
+								<th> 5 students</th>
+							</tr>
+						</tfoot>
+					</table>
+					<p>The above students are enrolled in Database application program in Seneca college and are serving
+						as
+						Teaching assistant for the duration of the course</p>
+				</div>
+
+				<h1 style="margin-top: 5%;">Courses:</h1>
+					<table class="table">
+						<thead>
+							<tr>
+								<th colspan="4" class="tspan">Courses available in DAD Program:</th>
+							</tr>
+							<tr>
+								<th>Course Id</th>
+								<th>Course Code</th>
+								<th>Description</th>
+								<th>Semester</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td class="tid">1</td>
+								<td>DES720</td>
+								<td>Relational Database Design and Implementation</td>
+								<td rowspan="5" class="tspan" style="vertical-align: middle;">Semester 1</td>
+							</tr>
+							<tr>
+								<td class="tid">2</td>
+								<td>JAV745</td>
+								<td>Java Programming</td>
+							</tr>
+							<tr>
+								<td class="tid">3</td>
+								<td>OPS705</td>
+								<td>Introduction to Cloud Computing</td>
+							</tr>
+							<tr>
+								<td class="tid">4</td>
+								<td>SQL710</td>
+								<td>Database Administration and Management</td>
+							</tr>
+							<tr>
+								<td class="tid">5</td>
+								<td>WEB700</td>
+								<td>Web Programming</td>
+							</tr>
+							<tr>
+								<td class="tid">6</td>
+								<td>CAP805</td>
+								<td>Applied Capstone Project</td>
+								<td rowspan="6" class="tspan" style="vertical-align: middle;">Semester 2</td>
+							</tr>
+							<tr>
+								<td class="tid">7</td>
+								<td>CJV805</td>
+								<td>Database Connectivity Using Java</td>
+							</tr>
+							<tr>
+								<td class="tid">8</td>
+								<td>DBD800</td>
+								<td>Accessing Big Data</td>
+							</tr>
+							<tr>
+								<td class="tid">9</td>
+								<td>DBW825</td>
+								<td>Datawarehousing</td>
+							</tr>
+							<tr>
+								<td class="tid">10</td>
+								<td>SEC835</td>
+								<td>Security in Databases and Web Applications</td>
+							</tr>
+							<tr>
+								<td class="tid">11</td>
+								<td>WTP100</td>
+								<td>Work Term Preparation (Work-Integrated Learning option only)</td>
+							</tr>
+						</tbody>
+					</table>
+					<p>The students must score 50 percent or above to pass the course semester.</p>
+				</div>
+
+				<h1 style="margin-top: 5%;">Dog breeds List-</h1>
+				<div class="add-div">
+					<caption>The following are some amazing dog breeds</caption>
+					<ol>
+						<li>Retrievers
+							<ul>
+								<li>Black lab retrievers</li>
+								<li>Yellow lab retrievers</li>
+								<li>Golden retrievers</li>
+							</ul>
+						</li>
+						<li>Pomeranians
+							<ul>
+								<li>Teacup poms</li>
+								<li>Poms</li>
+							</ul>
+						</li>
+					</ol>
+					<p>There are so many different types of dogs</p>
+				</div>
+
+				
+						<h1 style="margin-top: 5%;">Introduction to HTML Images</h1>
+						<div class="add-div">
+					<table class="table">
+						<tr>
+							<th>Image of a Snow Boarder</th><td><img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Snowboarder_in_halfpipe.jpg" alt="Snow Boarder" width="600" height="360"></td>
+						</tr>
+						<tr>
+							<th>Image of Boy </th><td><img src="https://plus.unsplash.com/premium_photo-1663054834323-7badd31755f4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2944&q=80" alt="Image of Boy" width="600" height="360"></td>
+						</tr>
+						<tr>
+							<th>Image of Flower</th><td><img src="https://images.unsplash.com/photo-1538991383142-36c4edeaffde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8ZnJlZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60" alt="Image of Flower" width="600" height="360"></td>
+						</tr>
+						
+					</table>
+					<p>The content shown in above table describes Images with use of alt.</p>
+				</div>
+					<h1 style="margin-top: 5%;">Introduction to HTML Audio</h1>
+					<div class="add-div">
+					<audio controls>
+						<source src=" https://pat-crawford-sdds.netlify.app/shared/fall-2022/web700/A3/sample-audio.ogg" type="audio/ogg">
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2022/web700/A3/sample-audio.mp3" type="audio/mpeg">
+						Your browser does not support the audio element.
+					</audio>
+					<p>The content shown in above  describes Audio usage in HTML.</p>
+				</div>
+					<h1 style="margin-top: 5%;">Introduction to HTML Video</h1>
+					<div class="add-div">
+					<video width="400" controls>
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2022/web700/A3/sample-video.mp4" type="video/mp4">
+						<source src="https://pat-crawford-sdds.netlify.app/shared/fall-2022/web700/A3/sample-video.ogg" type="video/ogg">
+						Your browser does not support HTML video.
+					  </video>
+					  <p>The content shown in above describes use of Videos in HTML.</p>
+					</div>
+			</main>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>

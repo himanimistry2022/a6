@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=League+arial&family=arial+Swashed:wght@300;600&family=arial+Sans:wght@700&family=Syne+Mono&display=swap&family=arial&display=swap&family=Black+And+White+Picture&display=swap');
+
+.bg-light{
+    box-shadow: rgb(61, 4, 4) 22px -16px 18px -5px;
+    background-color: #d8edd2;
+    -webkit-box-shadow: #35CAC0 22px -16px 18px -5px;
+    -moz-box-shadow: rgb(7, 9, 9) 22px -16px 18px -5px;
+    box-shadow: rgb(7, 18, 16) 22px -16px 18px -5px;
+}
+
+.tbl-div{
+    -webkit-box-shadow: 10px 10px 17px 0px rgb(113, 97, 152);
+    -moz-box-shadow: 10px 10px 17px 0px rgba(26,26,26,1);
+    box-shadow: 10px 10px 17px 0px rgb(55, 17, 17);
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: rgba(39, 23, 2, 0.143) !important;
+}
+.add-div{
+    -webkit-box-shadow: 10px 10px 17px 0px rgba(26,26,26,1);
+    -moz-box-shadow: 10px 10px 17px 0px rgb(119, 7, 7);
+    box-shadow: 10px 10px 17px 0px rgba(26,26,26,1);
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: rgb(245, 245, 235) !important;
+}
+.navbar-light .navbar-brand{
+    color: rgb(116, 44, 44) ;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+}
+.nav-link{
+    font-family: 'Raleway', sans-serif;
+    color: rgb(1, 2, 1) !important;
+}
+.nav-link:hover{
+    color: rgb(26, 180, 23) !important;  
+}
+html, body{
+    overflow: auto;
+    background: #f0252f; /* fallback color */
+    background: linear-gradient(to bottom, rgb(216, 11, 235), rgb(246, 252, 248));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+}
+table tr:nth-child(odd) td, table tr:nth-child(odd) th{
+    background-color: #d8cece !important;
+} 
+h1,h2,h3,h4,h5,h6{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px #070606;
+    font-family: 'Raleway', sans-serif;
+
+}
+a{
+    color: rgb(23, 27, 29) !important;
+}
+a:hover{
+    color: rgb(40, 27, 40)  !important;
+}
+fieldset legend {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: rgb(94, 97, 100);
+}
+hr{
+    background-color: rgb(216, 11, 235); 
+}
+.btn-primary{
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(216, 11, 235);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px rgb(216, 11, 235);
+} 
+.btn-primary:hover{
+    background-color: rgb(216, 11, 235);
+}
+.btn-primary:active {
+    background-color: rgb(216, 11, 235);
+    box-shadow: 0 5px rgb(216, 11, 235);
+    transform: translateY(4px);
+  }
