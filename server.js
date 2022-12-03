@@ -6,7 +6,6 @@
 *
 * Name: Himani Mistry | Student ID: 111985206 | Date: 2nd December 2022
 
-cyclic: https://github.com/himanimistry2022/a6
 ********************************************************************************/ 
 
 var HTTP_PORT = process.env.PORT || 8080;
